@@ -11,3 +11,84 @@
 hr{
     margin: 30px;
 }
+
+.bloco-1 {
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+}
+
+.bloco-2 {
+    background-color: rgb(121, 72, 166);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+}
+
+.bloco-3 {
+    background-color: rgb(70, 52, 87);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+
+   /* Indiferantes */
+   background-color: aquamarine;
+   padding: 15px;
+   height: 500px;
+}
+/* 
+Criado flexbox row */
+.container-row{
+    display: flex;
+    flex-direction: row;
+ 
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+ }
+
+ .container-column{
+    display: flex;
+    flex-direction: column;
+ 
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+ }
+ 
+ .container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+ 
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+ }
+
+ .container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+ 
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+ }
