@@ -356,3 +356,81 @@ hr{
     padding: 15px;
     height: 500px;
 }
+
+.Align-content-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+}
+
+.Align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+}
+
+.Align-content-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+}
+
+.Align-content-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+}
+
+.Align-content-space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+}
+
+.Align-content-space-evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    /* Indiferantes */
+    background-color: rgb(244, 127, 255);
+    padding: 15px;
+    height: 500px;
+}
