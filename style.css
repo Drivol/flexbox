@@ -434,3 +434,35 @@ hr{
     padding: 15px;
     height: 500px;
 }
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+
+}
+
+
+.menu li{
+    background-color: rgb(164, 155, 215);
+    padding: 15px;
+    border-radius: 16px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size:  15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    background-color: rgb(115, 109, 109);
+    padding: 15px;
+    border-radius: 50%;
+}
