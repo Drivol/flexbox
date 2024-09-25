@@ -466,3 +466,10 @@ a:hover{
     padding: 15px;
     border-radius: 50%;
 }
+
+button{
+    position: fixed;
+    background-color: rgb(97, 96, 96);
+    display: flex;
+    margin-left: 90%;
+}
